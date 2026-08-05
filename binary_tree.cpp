@@ -85,8 +85,8 @@ void levelOrder(Node* root){
         if (curr->right != NULL){
             q.push(curr -> right);
             }
+
         }
-        q.push(NULL);
 
     cout<<endl;
 
